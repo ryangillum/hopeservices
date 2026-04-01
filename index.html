@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hope Services | Construction & Landscaping in Uvita, Costa Rica</title>
+  <meta name="description" content="Hope Services offers expert construction, remodeling, and landscaping in Uvita, Costa Rica. Quality craftsmanship for your dream home and outdoor spaces.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/logo/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#hero" class="header__logo">
+        <img src="images/logo/hope-text.png" alt="Hope Services" class="header__logo-img">
+        <span class="header__tagline" data-i18n="nav.tagline">Construction & Landscaping</span>
+      </a>
+      <nav class="header__nav" id="mainNav">
+        <a href="#services" class="header__link" data-i18n="nav.services">Services</a>
+        <a href="#gallery" class="header__link" data-i18n="nav.gallery">Gallery</a>
+        <a href="#reviews" class="header__link" data-i18n="nav.reviews">Reviews</a>
+        <a href="#contact" class="header__link" data-i18n="nav.contact">Contact</a>
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-toggle__flag" id="langFlag">ES</span>
+        </button>
+      </nav>
+      <div class="header__right-mobile">
+        <button class="lang-toggle" id="langToggleMobile" aria-label="Switch language">
+          <span class="lang-toggle__flag">ES</span>
+        </button>
+        <button class="header__hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#services" class="mobile-nav__link" data-i18n="nav.services">Services</a>
+    <a href="#gallery" class="mobile-nav__link" data-i18n="nav.gallery">Gallery</a>
+    <a href="#reviews" class="mobile-nav__link" data-i18n="nav.reviews">Reviews</a>
+    <a href="#contact" class="mobile-nav__link" data-i18n="nav.contact">Contact</a>
+    <div class="mobile-nav__social">
+      <a href="https://www.instagram.com/hope.services_" target="_blank" aria-label="Instagram">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+      </a>
+      <a href="https://www.facebook.com/share/1CXE8Vp3FN/" target="_blank" aria-label="Facebook">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://wa.me/50660029002" target="_blank" aria-label="WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" style="background-image:url('images/gallery/photo-008.jpg')"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title" data-i18n="hero.title" data-i18n-html="true">Building <em>Dreams</em><br>Crafting <em>Landscapes</em></h1>
+      <p class="hero__subtitle" data-i18n="hero.subtitle">Expert construction, remodeling & landscaping services in Uvita, Costa Rica</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary" data-i18n="hero.cta1">Get a Free Quote</a>
+        <a href="#gallery" class="btn btn--outline" data-i18n="hero.cta2">View Our Work</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__label" data-i18n="services.label">What We Do</span>
+        <h2 class="section-header__title" data-i18n="services.title" data-i18n-html="true">Our <em>Services</em></h2>
+        <p class="section-header__desc" data-i18n="services.desc">From ground-breaking foundations to lush garden transformations, Hope Services delivers quality craftsmanship for every project.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l8-4v18M13 21V3l6 4v14M9 9h.01M9 13h.01M9 17h.01M17 9h.01M17 13h.01M17 17h.01"/></svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="services.construction.title">New Construction</h3>
+          <p class="service-card__desc" data-i18n="services.construction.desc">Custom homes, commercial buildings, and structures built from the ground up with the highest standards of quality and attention to detail.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="services.remodeling.title">Remodeling</h3>
+          <p class="service-card__desc" data-i18n="services.remodeling.desc">Kitchen renovations, bathroom upgrades, room additions, and full home makeovers that breathe new life into your existing spaces.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12z"/><path d="M7 14c0-1 .5-3 2-4.5"/><circle cx="12" cy="10" r="1"/></svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="services.landscaping.title">Landscaping</h3>
+          <p class="service-card__desc" data-i18n="services.landscaping.desc">Garden design, retaining walls, stone pathways, pool areas, and tropical landscaping that transforms your outdoor spaces into paradise.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l1.5 4.5H18l-3.5 2.5L16 15l-4-3-4 3 1.5-5L6 7.5h4.5z"/><path d="M4.5 19.5h15M4.5 21h15"/></svg>
+          </div>
+          <h3 class="service-card__title" data-i18n="services.maintenance.title">Maintenance</h3>
+          <p class="service-card__desc" data-i18n="services.maintenance.desc">Regular garden upkeep, property maintenance, and general repairs to keep your home and grounds looking their absolute best year-round.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY SECTION ========== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__label" data-i18n="gallery.label">Our Portfolio</span>
+        <h2 class="section-header__title" data-i18n="gallery.title" data-i18n-html="true">Project <em>Gallery</em></h2>
+        <p class="section-header__desc" data-i18n="gallery.desc">Browse through our completed projects and see the quality of work Hope Services delivers.</p>
+      </div>
+      <div class="gallery__filters">
+        <button class="gallery__filter active" data-filter="all" data-i18n="gallery.all">All Projects</button>
+        <button class="gallery__filter" data-filter="landscaping" data-i18n="gallery.landscaping">Landscaping</button>
+        <button class="gallery__filter" data-filter="new-construction" data-i18n="gallery.construction">New Construction</button>
+        <button class="gallery__filter" data-filter="remodeling" data-i18n="gallery.remodeling">Remodeling</button>
+        <button class="gallery__filter" data-filter="other" data-i18n="gallery.other">Other</button>
+      </div>
+      <div class="gallery__grid" id="galleryGrid">
+        <!-- Photos loaded from gallery-data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <button class="lightbox__prev" aria-label="Previous">&lsaquo;</button>
+    <button class="lightbox__next" aria-label="Next">&rsaquo;</button>
+    <div class="lightbox__content">
+      <img src="" alt="" class="lightbox__img" id="lightboxImg">
+    </div>
+    <div class="lightbox__counter" id="lightboxCounter"></div>
+  </div>
+
+  <!-- ========== REVIEWS SECTION ========== -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__label" data-i18n="reviews.label">Testimonials</span>
+        <h2 class="section-header__title" data-i18n="reviews.title" data-i18n-html="true">What Our <em>Clients</em> Say</h2>
+      </div>
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="review-card__text" data-i18n="reviews.r1.text">"Hope Services completely transformed our backyard into a tropical oasis. The stone pathways and retaining walls are beautiful, and the craftsmanship is outstanding. Highly recommend!"</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">JM</div>
+            <div>
+              <strong class="review-card__name">James M.</strong>
+              <span class="review-card__project" data-i18n="reviews.r1.project">Landscaping Project — Uvita</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="review-card__text" data-i18n="reviews.r2.text">"We hired Hope Services for a full kitchen remodel and the results exceeded our expectations. Professional team, great communication throughout the project, and the finished kitchen is stunning."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">SR</div>
+            <div>
+              <strong class="review-card__name">Sarah R.</strong>
+              <span class="review-card__project" data-i18n="reviews.r2.project">Kitchen Remodel — Dominical</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#f5a623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="review-card__text" data-i18n="reviews.r3.text">"From the initial foundation pour to the final finishes, Hope Services built our dream home in Uvita. They handled every detail with care and professionalism. We couldn't be happier with the result."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">DL</div>
+            <div>
+              <strong class="review-card__name">David L.</strong>
+              <span class="review-card__project" data-i18n="reviews.r3.project">New Home Construction — Uvita</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__wrapper">
+        <div class="contact__info">
+          <div class="section-header section-header--left">
+            <span class="section-header__label" data-i18n="contact.label">Get In Touch</span>
+            <h2 class="section-header__title" data-i18n="contact.title" data-i18n-html="true">Let's Build<br><em>Something Great</em></h2>
+          </div>
+          <p class="contact__desc" data-i18n="contact.desc">Ready to start your next project? Reach out to us for a free consultation and quote. We'd love to hear about your vision.</p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Uvita, Puntarenas, Costa Rica</span>
+            </div>
+            <div class="contact__detail">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="https://wa.me/50660029002">+506 6002-9002</a>
+            </div>
+          </div>
+          <div class="contact__social">
+            <a href="https://www.instagram.com/hope.services_" target="_blank" class="contact__social-link" aria-label="Instagram">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+            </a>
+            <a href="https://www.facebook.com/share/1CXE8Vp3FN/" target="_blank" class="contact__social-link" aria-label="Facebook">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://wa.me/50660029002" target="_blank" class="contact__social-link contact__social-link--whatsapp" aria-label="WhatsApp">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact__form" id="contactForm" action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+          <input type="hidden" name="_subject" value="New inquiry from Hope Services website">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName" data-i18n="form.firstName">First Name</label>
+              <input type="text" id="firstName" name="first_name" required data-i18n-placeholder="form.firstName_ph" placeholder="Your first name">
+            </div>
+            <div class="form-group">
+              <label for="lastName" data-i18n="form.lastName">Last Name</label>
+              <input type="text" id="lastName" name="last_name" required data-i18n-placeholder="form.lastName_ph" placeholder="Your last name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label for="phone" data-i18n="form.phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" name="phone" placeholder="+506 0000-0000">
+          </div>
+          <div class="form-group">
+            <label for="service" data-i18n="form.service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="" data-i18n="form.selectService">Select a service</option>
+              <option value="New Construction" data-i18n="form.opt_construction">New Construction</option>
+              <option value="Remodeling" data-i18n="form.opt_remodeling">Remodeling</option>
+              <option value="Landscaping" data-i18n="form.opt_landscaping">Landscaping</option>
+              <option value="Maintenance" data-i18n="form.opt_maintenance">Maintenance</option>
+              <option value="Other" data-i18n="form.opt_other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message" data-i18n="form.message">Message</label>
+            <textarea id="message" name="message" rows="4" data-i18n-placeholder="form.message_ph" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <!-- Cloudflare Turnstile -->
+          <div class="cf-turnstile" data-sitekey="YOUR_TURNSTILE_SITE_KEY" data-theme="light"></div>
+          <button type="submit" class="btn btn--primary btn--full" data-i18n="form.submit">Send Message</button>
+          <div class="contact__form-success" id="formSuccess">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#28a745" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+            <p data-i18n="form.success">Thank you! Your message has been sent. We'll get back to you within 24 hours.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="images/logo/logo.png" alt="Hope Services" class="footer__logo">
+          <span>Hope Services</span>
+        </div>
+        <p class="footer__copy" data-i18n="footer.copy">&copy; 2026 Hope Services. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/hope.services_" target="_blank" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1CXE8Vp3FN/" target="_blank" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/50660029002" target="_blank" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/50660029002" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Gallery data (edit gallery-data.js to add/remove photos) -->
+  <script src="js/gallery-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
