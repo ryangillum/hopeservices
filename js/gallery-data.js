@@ -1,416 +1,68 @@
 var GALLERY_DATA = [
-  {
-    "id": 1,
-    "file": "photo-001.jpg",
-    "category": "remodeling",
-    "alt": "Modern kitchen with red cabinetry and stainless steel appliances"
-  },
-  {
-    "id": 2,
-    "file": "photo-002.jpg",
-    "category": "remodeling",
-    "alt": "Contemporary bathroom with vessel sink and tile work"
-  },
-  {
-    "id": 3,
-    "file": "photo-003.jpg",
-    "category": "landscaping",
-    "alt": "Outdoor pool area with stone patio and lush tropical gardens"
-  },
-  {
-    "id": 4,
-    "file": "photo-004.jpg",
-    "category": "landscaping",
-    "alt": "Modern outdoor staircase with metal railing and green landscaping"
-  },
-  {
-    "id": 5,
-    "file": "photo-005.jpg",
-    "category": "new-construction",
-    "alt": "Modern house exterior with pool and contemporary architecture"
-  },
-  {
-    "id": 6,
-    "file": "photo-006.jpg",
-    "category": "new-construction",
-    "alt": "Interior living space with wooden staircase and modern furniture"
-  },
-  {
-    "id": 7,
-    "file": "photo-007.jpg",
-    "category": "other",
-    "alt": "Agricultural field with farm equipment and mountains"
-  },
-  {
-    "id": 8,
-    "file": "photo-008.jpg",
-    "category": "landscaping",
-    "alt": "Luxury pool area with wooden deck and tropical plants"
-  },
-  {
-    "id": 9,
-    "file": "photo-009.jpg",
-    "category": "remodeling",
-    "alt": "Modern bathroom vanity with wooden cabinetry"
-  },
-  {
-    "id": 10,
-    "file": "photo-010.jpg",
-    "category": "new-construction",
-    "alt": "Interior room with modern architecture and black door"
-  },
-  {
-    "id": 11,
-    "file": "photo-011.jpg",
-    "category": "new-construction",
-    "alt": "Exterior building with contemporary design and landscaping"
-  },
-  {
-    "id": 12,
-    "file": "photo-012.jpg",
-    "category": "landscaping",
-    "alt": "Covered outdoor living space with pool and wooden decking"
-  },
-  {
-    "id": 13,
-    "file": "photo-013.jpg",
-    "category": "landscaping",
-    "alt": "Aerial view of outdoor property with mountain landscape"
-  },
-  {
-    "id": 14,
-    "file": "photo-014.jpg",
-    "category": "remodeling",
-    "alt": "Bathroom vanity with modern fixtures and tile backsplash"
-  },
-  {
-    "id": 15,
-    "file": "photo-015.jpg",
-    "category": "remodeling",
-    "alt": "Kitchen with red cabinetry and modern design"
-  },
-  {
-    "id": 16,
-    "file": "photo-016.jpg",
-    "category": "other",
-    "alt": "Hope Services office interior with wooden features"
-  },
-  {
-    "id": 17,
-    "file": "photo-017.jpg",
-    "category": "new-construction",
-    "alt": "Contemporary house exterior with modern architectural elements"
-  },
-  {
-    "id": 18,
-    "file": "photo-018.jpg",
-    "category": "other",
-    "alt": "Agricultural truck in field"
-  },
-  {
-    "id": 19,
-    "file": "photo-019.jpg",
-    "category": "landscaping",
-    "alt": "Stone retaining wall with landscape fabric"
-  },
-  {
-    "id": 20,
-    "file": "photo-020.jpg",
-    "category": "landscaping",
-    "alt": "Wooden deck area with pool and garden plants"
-  },
-  {
-    "id": 21,
-    "file": "photo-021.jpg",
-    "category": "landscaping",
-    "alt": "Pool area with stone features and tropical landscaping"
-  },
-  {
-    "id": 22,
-    "file": "photo-022.jpg",
-    "category": "landscaping",
-    "alt": "Garden pool with lounge chairs and decorative boulders"
-  },
-  {
-    "id": 23,
-    "file": "photo-023.jpg",
-    "category": "other",
-    "alt": "Agricultural field with farming equipment"
-  },
-  {
-    "id": 24,
-    "file": "photo-024.jpg",
-    "category": "landscaping",
-    "alt": "Modern balcony with wooden decking and metal railings"
-  },
-  {
-    "id": 25,
-    "file": "photo-025.jpg",
-    "category": "remodeling",
-    "alt": "Outdoor kitchen with grill and wooden cabinetry"
-  },
-  {
-    "id": 26,
-    "file": "photo-026.jpg",
-    "category": "remodeling",
-    "alt": "Interior room with wooden ceiling and glass doors"
-  },
-  {
-    "id": 27,
-    "file": "photo-027.jpg",
-    "category": "remodeling",
-    "alt": "Hallway with architectural features and decorative tub"
-  },
-  {
-    "id": 28,
-    "file": "photo-028.jpg",
-    "category": "landscaping",
-    "alt": "Pool under construction with colorful safety markings"
-  },
-  {
-    "id": 29,
-    "file": "photo-029.jpg",
-    "category": "new-construction",
-    "alt": "Foundation with reinforcement rebar for new construction"
-  },
-  {
-    "id": 30,
-    "file": "photo-030.jpg",
-    "category": "landscaping",
-    "alt": "Luxury pool with wooden deck and tropical garden"
-  },
-  {
-    "id": 31,
-    "file": "photo-031.jpg",
-    "category": "other",
-    "alt": "Service vehicles parked in evening light"
-  },
-  {
-    "id": 32,
-    "file": "photo-032.jpg",
-    "category": "other",
-    "alt": "Hope Services office location map"
-  },
-  {
-    "id": 33,
-    "file": "photo-033.jpg",
-    "category": "remodeling",
-    "alt": "Open-concept kitchen and living area with modern design"
-  },
-  {
-    "id": 34,
-    "file": "photo-034.jpg",
-    "category": "remodeling",
-    "alt": "Staircase with modern floating design"
-  },
-  {
-    "id": 35,
-    "file": "photo-035.jpg",
-    "category": "remodeling",
-    "alt": "Contemporary kitchen with bar seating and modern finishes"
-  },
-  {
-    "id": 36,
-    "file": "photo-036.jpg",
-    "category": "remodeling",
-    "alt": "Modern kitchen with red cabinetry and island"
-  },
-  {
-    "id": 37,
-    "file": "photo-037.jpg",
-    "category": "remodeling",
-    "alt": "Interior stairs with modern metal railings"
-  },
-  {
-    "id": 38,
-    "file": "photo-038.jpg",
-    "category": "new-construction",
-    "alt": "Contemporary house with pool and modern exterior design"
-  },
-  {
-    "id": 39,
-    "file": "photo-039.jpg",
-    "category": "remodeling",
-    "alt": "Kitchen interior with wooden cabinetry and modern appliances"
-  },
-  {
-    "id": 40,
-    "file": "photo-040.jpg",
-    "category": "new-construction",
-    "alt": "Interior room with modern finishes and lighting"
-  },
-  {
-    "id": 41,
-    "file": "photo-041.jpg",
-    "category": "landscaping",
-    "alt": "Stone pathway through lush tropical garden"
-  },
-  {
-    "id": 42,
-    "file": "photo-042.jpg",
-    "category": "landscaping",
-    "alt": "Pool with decorative retaining wall and plants"
-  },
-  {
-    "id": 43,
-    "file": "photo-043.jpg",
-    "category": "landscaping",
-    "alt": "Covered outdoor structure with concrete floor"
-  },
-  {
-    "id": 44,
-    "file": "photo-044.jpg",
-    "category": "new-construction",
-    "alt": "Concrete foundation work with rebar installation"
-  },
-  {
-    "id": 45,
-    "file": "photo-045.jpg",
-    "category": "remodeling",
-    "alt": "Modern hallway with lantern pendant lighting"
-  },
-  {
-    "id": 46,
-    "file": "photo-046.jpg",
-    "category": "landscaping",
-    "alt": "Wooden gate entrance to outdoor space"
-  },
-  {
-    "id": 47,
-    "file": "photo-047.jpg",
-    "category": "landscaping",
-    "alt": "Stone pathway through dense tropical vegetation"
-  },
-  {
-    "id": 48,
-    "file": "photo-048.jpg",
-    "category": "new-construction",
-    "alt": "Modern interior space with wooden ceiling and finishes"
-  },
-  {
-    "id": 49,
-    "file": "photo-049.jpg",
-    "category": "new-construction",
-    "alt": "Contemporary covered patio with concrete flooring"
-  },
-  {
-    "id": 50,
-    "file": "photo-050.jpg",
-    "category": "new-construction",
-    "alt": "Modern house exterior with contemporary landscaping"
-  },
-  {
-    "id": 51,
-    "file": "photo-051.jpg",
-    "category": "new-construction",
-    "alt": "House exterior with modern architecture and front yard"
-  },
-  {
-    "id": 52,
-    "file": "photo-052.jpg",
-    "category": "remodeling",
-    "alt": "Modern kitchen with dark cabinetry and contemporary design"
-  },
-  {
-    "id": 53,
-    "file": "photo-053.jpg",
-    "category": "landscaping",
-    "alt": "Stone pathway through forest garden"
-  },
-  {
-    "id": 54,
-    "file": "photo-054.jpg",
-    "category": "landscaping",
-    "alt": "Wooden deck area with covered structure and seating"
-  },
-  {
-    "id": 55,
-    "file": "photo-055.jpg",
-    "category": "landscaping",
-    "alt": "Pool area aerial view with landscaping"
-  },
-  {
-    "id": 56,
-    "file": "photo-056.jpg",
-    "category": "other",
-    "alt": "Hope Services company logo"
-  },
-  {
-    "id": 57,
-    "file": "photo-057.jpg",
-    "category": "other",
-    "alt": "Hope Services company logo"
-  },
-  {
-    "id": 58,
-    "file": "photo-058.jpg",
-    "category": "landscaping",
-    "alt": "Swimming pool with metal handrails and tiled edges"
-  },
-  {
-    "id": 59,
-    "file": "photo-059.jpg",
-    "category": "new-construction",
-    "alt": "Contemporary house exterior with black door and railing"
-  },
-  {
-    "id": 60,
-    "file": "photo-060.jpg",
-    "category": "landscaping",
-    "alt": "Infinity pool with modern design and landscape views"
-  },
-  {
-    "id": 61,
-    "file": "photo-061.jpg",
-    "category": "remodeling",
-    "alt": "Modern kitchen with wooden cabinetry and island"
-  },
-  {
-    "id": 62,
-    "file": "photo-062.jpg",
-    "category": "landscaping",
-    "alt": "Wooden deck with covered structure and garden"
-  },
-  {
-    "id": 63,
-    "file": "photo-063.jpg",
-    "category": "new-construction",
-    "alt": "Construction site with framing and structural work"
-  },
-  {
-    "id": 64,
-    "file": "photo-064.jpg",
-    "category": "other",
-    "alt": "Hope Services company logo"
-  },
-  {
-    "id": 65,
-    "file": "photo-065.jpg",
-    "category": "landscaping",
-    "alt": "Retaining wall with stone and landscape construction"
-  },
-  {
-    "id": 66,
-    "file": "photo-066.jpg",
-    "category": "landscaping",
-    "alt": "Infinity pool overlooking landscape with modern design"
-  },
-  {
-    "id": 67,
-    "file": "photo-067.jpg",
-    "category": "new-construction",
-    "alt": "Modern house exterior with pool and contemporary architecture"
-  },
-  {
-    "id": 68,
-    "file": "photo-068.jpg",
-    "category": "landscaping",
-    "alt": "Stone retaining wall construction with drainage system"
-  },
-  {
-    "id": 69,
-    "file": "photo-069.jpg",
-    "category": "landscaping",
-    "alt": "Large water containment pond with landscape covering"
-  }
+  { "id": 1, "file": "photo-001.jpg", "category": "remodeling", "alt": "Modern kitchen with red cabinetry and stainless steel appliances" },
+  { "id": 2, "file": "photo-002.jpg", "category": "remodeling", "alt": "Contemporary bathroom with vessel sink and tile work" },
+  { "id": 3, "file": "photo-003.jpg", "category": "landscaping", "alt": "Outdoor pool area with stone patio and lush tropical gardens" },
+  { "id": 4, "file": "photo-004.jpg", "category": "landscaping", "alt": "Modern outdoor staircase with metal railing and green landscaping" },
+  { "id": 5, "file": "photo-005.jpg", "category": "new-construction", "alt": "Modern house exterior with pool and contemporary architecture" },
+  { "id": 6, "file": "photo-006.jpg", "category": "new-construction", "alt": "Interior living space with wooden staircase and modern furniture" },
+  { "id": 7, "file": "photo-007.jpg", "category": "other", "alt": "Agricultural field with farm equipment and mountains" },
+  { "id": 8, "file": "photo-008.jpg", "category": "landscaping", "alt": "Luxury pool area with wooden deck and tropical plants" },
+  { "id": 9, "file": "photo-009.jpg", "category": "remodeling", "alt": "Modern bathroom vanity with wooden cabinetry" },
+  { "id": 10, "file": "photo-010.jpg", "category": "new-construction", "alt": "Interior room with modern architecture and black door" },
+  { "id": 11, "file": "photo-011.jpg", "category": "new-construction", "alt": "Exterior building with contemporary design and landscaping" },
+  { "id": 12, "file": "photo-012.jpg", "category": "landscaping", "alt": "Covered outdoor living space with pool and wooden decking" },
+  { "id": 13, "file": "photo-013.jpg", "category": "landscaping", "alt": "Aerial view of outdoor property with mountain landscape" },
+  { "id": 14, "file": "photo-014.jpg", "category": "remodeling", "alt": "Bathroom vanity with modern fixtures and tile backsplash" },
+  { "id": 15, "file": "photo-015.jpg", "category": "remodeling", "alt": "Kitchen with red cabinetry and modern design" },
+  { "id": 16, "file": "photo-016.jpg", "category": "other", "alt": "Hope Services office interior with wooden features" },
+  { "id": 17, "file": "photo-017.jpg", "category": "new-construction", "alt": "Contemporary house exterior with modern architectural elements" },
+  { "id": 18, "file": "photo-018.jpg", "category": "other", "alt": "Agricultural truck in field" },
+  { "id": 20, "file": "photo-020.jpg", "category": "landscaping", "alt": "Wooden deck area with pool and garden plants" },
+  { "id": 21, "file": "photo-021.jpg", "category": "landscaping", "alt": "Pool area with stone features and tropical landscaping" },
+  { "id": 22, "file": "photo-022.jpg", "category": "landscaping", "alt": "Garden pool with lounge chairs and decorative boulders" },
+  { "id": 23, "file": "photo-023.jpg", "category": "other", "alt": "Agricultural field with farming equipment" },
+  { "id": 24, "file": "photo-024.jpg", "category": "landscaping", "alt": "Modern balcony with wooden decking and metal railings" },
+  { "id": 25, "file": "photo-025.jpg", "category": "remodeling", "alt": "Outdoor kitchen with grill and wooden cabinetry" },
+  { "id": 26, "file": "photo-026.jpg", "category": "remodeling", "alt": "Interior room with wooden ceiling and glass doors" },
+  { "id": 27, "file": "photo-027.jpg", "category": "remodeling", "alt": "Hallway with architectural features and decorative tub" },
+  { "id": 28, "file": "photo-028.jpg", "category": "landscaping", "alt": "Pool under construction with colorful safety markings" },
+  { "id": 29, "file": "photo-029.jpg", "category": "new-construction", "alt": "Foundation with reinforcement rebar for new construction" },
+  { "id": 30, "file": "photo-030.jpg", "category": "landscaping", "alt": "Luxury pool with wooden deck and tropical garden" },
+  { "id": 31, "file": "photo-031.jpg", "category": "other", "alt": "Service vehicles parked in evening light" },
+  { "id": 32, "file": "photo-032.jpg", "category": "other", "alt": "Hope Services office location map" },
+  { "id": 33, "file": "photo-033.jpg", "category": "remodeling", "alt": "Open-concept kitchen and living area with modern design" },
+  { "id": 34, "file": "photo-034.jpg", "category": "remodeling", "alt": "Staircase with modern floating design" },
+  { "id": 35, "file": "photo-035.jpg", "category": "remodeling", "alt": "Contemporary kitchen with bar seating and modern finishes" },
+  { "id": 36, "file": "photo-036.jpg", "category": "remodeling", "alt": "Modern kitchen with red cabinetry and island" },
+  { "id": 37, "file": "photo-037.jpg", "category": "remodeling", "alt": "Interior stairs with modern metal railings" },
+  { "id": 38, "file": "photo-038.jpg", "category": "new-construction", "alt": "Contemporary house with pool and modern exterior design" },
+  { "id": 39, "file": "photo-039.jpg", "category": "remodeling", "alt": "Kitchen interior with wooden cabinetry and modern appliances" },
+  { "id": 40, "file": "photo-040.jpg", "category": "new-construction", "alt": "Interior room with modern finishes and lighting" },
+  { "id": 41, "file": "photo-041.jpg", "category": "landscaping", "alt": "Stone pathway through lush tropical garden" },
+  { "id": 42, "file": "photo-042.jpg", "category": "landscaping", "alt": "Pool with decorative retaining wall and plants" },
+  { "id": 43, "file": "photo-043.jpg", "category": "landscaping", "alt": "Covered outdoor structure with concrete floor" },
+  { "id": 44, "file": "photo-044.jpg", "category": "new-construction", "alt": "Concrete foundation work with rebar installation" },
+  { "id": 45, "file": "photo-045.jpg", "category": "remodeling", "alt": "Modern hallway with lantern pendant lighting" },
+  { "id": 46, "file": "photo-046.jpg", "category": "landscaping", "alt": "Wooden gate entrance to outdoor space" },
+  { "id": 47, "file": "photo-047.jpg", "category": "landscaping", "alt": "Stone pathway through dense tropical vegetation" },
+  { "id": 48, "file": "photo-048.jpg", "category": "new-construction", "alt": "Modern interior space with wooden ceiling and finishes" },
+  { "id": 49, "file": "photo-049.jpg", "category": "new-construction", "alt": "Contemporary covered patio with concrete flooring" },
+  { "id": 50, "file": "photo-050.jpg", "category": "new-construction", "alt": "Modern house exterior with contemporary landscaping" },
+  { "id": 51, "file": "photo-051.jpg", "category": "new-construction", "alt": "House exterior with modern architecture and front yard" },
+  { "id": 52, "file": "photo-052.jpg", "category": "remodeling", "alt": "Modern kitchen with dark cabinetry and contemporary design" },
+  { "id": 53, "file": "photo-053.jpg", "category": "landscaping", "alt": "Stone pathway through forest garden" },
+  { "id": 54, "file": "photo-054.jpg", "category": "landscaping", "alt": "Wooden deck area with covered structure and seating" },
+  { "id": 55, "file": "photo-055.jpg", "category": "landscaping", "alt": "Pool area aerial view with landscaping" },
+  { "id": 58, "file": "photo-058.jpg", "category": "landscaping", "alt": "Swimming pool with metal handrails and tiled edges" },
+  { "id": 59, "file": "photo-059.jpg", "category": "new-construction", "alt": "Contemporary house exterior with black door and railing" },
+  { "id": 60, "file": "photo-060.jpg", "category": "landscaping", "alt": "Infinity pool with modern design and landscape views" },
+  { "id": 61, "file": "photo-061.jpg", "category": "remodeling", "alt": "Modern kitchen with wooden cabinetry and island" },
+  { "id": 62, "file": "photo-062.jpg", "category": "landscaping", "alt": "Wooden deck with covered structure and garden" },
+  { "id": 63, "file": "photo-063.jpg", "category": "new-construction", "alt": "Construction site with framing and structural work" },
+  { "id": 64, "file": "photo-064.jpg", "category": "other", "alt": "Hope Services company logo" },
+  { "id": 65, "file": "photo-065.jpg", "category": "landscaping", "alt": "Retaining wall with stone and landscape construction" },
+  { "id": 66, "file": "photo-066.jpg", "category": "landscaping", "alt": "Infinity pool overlooking landscape with modern design" },
+  { "id": 67, "file": "photo-067.jpg", "category": "new-construction", "alt": "Modern house exterior with pool and contemporary architecture" },
+  { "id": 68, "file": "photo-068.jpg", "category": "landscaping", "alt": "Stone retaining wall construction with drainage system" },
+  { "id": 69, "file": "photo-069.jpg", "category": "landscaping", "alt": "Large water containment pond with landscape covering" }
 ];
